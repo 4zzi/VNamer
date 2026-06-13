@@ -18,7 +18,7 @@ this uses master prompting and the AI goes through 3 stages of self correction t
 
 # How to use 
 
-Open the batch script to start a webserver, use this script to send a request to http://localhost:5000/rename
+Open the batch script to start a webserver, use this script to send a request to http://127.0.0.1:5000/rename
 
 ```lua
 local HS = game:GetService("HttpService")
@@ -28,7 +28,7 @@ if not isfolder("VNamer") then makefolder("VNamer") end
 if not isfile("VNamer/Input.lua") then writefile("VNamer/Input.lua") end
 
 local Source = readfile("VNamer/Input.lua")
-assert(Source ~= "", "[VNamer] Paste your script into VNamer/input.lua first")
+assert(Source ~= "", "[VNamer] Paste your script into VNamer/Input.lua first")
 
 local Res = Req({
 	Url = "http://127.0.0.1:5000/rewrite",
