@@ -4,9 +4,8 @@ Is an AI renamer, you give it a lua script and it:
 
 - Look for variables and parameters with junk names
 - Study what is assigned to those variables to make up a name, study the entire function that uses those parameter to decide a name
-Inspired by Oracle's AI renamer
 
-uses Ollama and Qwen2.5b-coder:7b because nobody is spending money on AI for this
+Inspired by Oracle's AI renamer, uses Ollama and Qwen2.5b-coder:7b because nobody is spending money on AI for this
 
 this uses master prompting and the AI goes through 3 stages of self correction to prevent AI hallucinating and give you the best result 
 
