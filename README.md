@@ -9,6 +9,9 @@ Inspired by Oracle's AI renamer, uses Ollama and Qwen2.5b-coder:7b because nobod
 
 this uses master prompting and the AI goes through 3 stages of self correction to prevent AI hallucinating and give you the best result 
 
+# 1:1 Comparison
+
+
 # Installation 
 
 1. Install Ollama on the official page
