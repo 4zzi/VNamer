@@ -12,7 +12,7 @@ this uses master prompting and the AI goes through 3 stages of self correction t
 # Installation 
 
 1. Install Ollama on the official page
-2. Open ollama until you see a GUI, you can close it afterwards cause it runs in the background 
+2. Open Ollama until you see a GUI, you can close it afterwards cause it runs in the background 
 3. Open up terminal and type
 ```ollama pull qwen2.5b-coder:7b```
 
