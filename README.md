@@ -38,7 +38,7 @@ local Res = Req({
 })
 
 local Data = HS:JSONDecode(Res.Body)
-writefile("VNamer/Renamed.lua", Data.fixed_script)
+writefile("VNamer/Output.lua", Data.fixed_script)
 ```
 
 After you run this, put your script in VNamer/Input.lua then run it again 
@@ -46,3 +46,6 @@ After you run this, put your script in VNamer/Input.lua then run it again
 # Caution
 
 Because free AIs have intelligence limitations, only use this on scripts less then 500 lines, because the AI will start hallucinating by either NOT follow the prompt or give you a summary of what the script does 
+
+When decompiling, you cannot retrieve variable names except do a few hacks like make every GetService variable names the thing in quotes.
+This project is made to see how AI could fix decompiled scripts, this should not be released for production or for sale without perfect tuning and measures, it is simply a concept 
