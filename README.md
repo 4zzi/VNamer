@@ -3,7 +3,6 @@
 Is an AI renamer, you give it a lua script and it: 
 
 - Look for variables and parameters with junk names
-- 
 - Study what is assigned to those variables to make up a name, study the entire function
 
 that uses those parameter to decide a name
