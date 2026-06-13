@@ -3,7 +3,7 @@
 Is an AI renamer, you give it a lua script and it: 
 
 - Look for variables and parameters with junk names
-- Study what is assigned to those variables to make up a name, study the entire function that uses those parameter to decide a name
+- Study what is assigned to those variables to make up a name, study entire functions that uses those parameter to decide a name
 
 Inspired by Oracle's AI renamer, uses Ollama and Qwen2.5b-coder:7b because nobody is spending money on AI for this
 
