@@ -25,4 +25,4 @@ print("Hello World")
 
 # Caution
 
-Because free AIs have intelligence limitations, only use this on scripts less then 300 lines, because the AI will start hallucinating by either NOT follow the prompt or give you a summary of what the script does 
+Because free AIs have intelligence limitations, only use this on scripts less then 500 lines, because the AI will start hallucinating by either NOT follow the prompt or give you a summary of what the script does 
